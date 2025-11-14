@@ -1,6 +1,9 @@
 // Store the price of the candy
 const boughtCandyPrices = [];
 
+// Random amount generated once
+const amountToSpend = Math.random() * 100;
+
 function addCandy(candyType, weight) {
   let pricePerGram;
 
@@ -13,32 +16,27 @@ function addCandy(candyType, weight) {
   } else if (candyType === "chewing-gum") {
     pricePerGram = 0.03;
   } else {
-    console.log("Unknown cnady, not available. Sorry :(");
+    console.log("Unknown candy, not available. Sorry :(");
     return;
   }
 
   // Calculate total price and add it to the price array
   const totalPrice = pricePerGram * weight;
   boughtCandyPrices.push(totalPrice);
+}
 
-  // Random amount to spend to buy candys
-  const amountToSpend = Math.random() * 100;
 
-  // To check if more candy can be bought?
-  function canBuyMoreCandy() {
-    let totalSpent = 0;
-
-    for (let i = 0; i < boughtCandyPrices.length; i++) {
-      totalSpent = totalSpent + boughtCandyPrices[i];
-    }
+function canBuyMoreCandy() {
+  let totalSpent = 0;
+  for (let i = 0; i < boughtCandyPrices.length; i++) {
+    totalSpent = totalSpent + boughtCandyPrices[i];
   }
-
-  return totalSpent < amountToSpend; // returning boolean value
+  return totalSpent < amountToSpend; 
 }
 
 addCandy("sweet", 20);
 addCandy("chocolate", 30);
-addCandy("tofee", 60);
+addCandy("toffee", 60);
 
 if (canBuyMoreCandy()) {
   console.log("You can buy more, so please do!");
