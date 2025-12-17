@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: white;
+  padding: 2.5rem 3rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+p {
+  color: #666;
+}
+
+.count {
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #4f46e5;
+}
