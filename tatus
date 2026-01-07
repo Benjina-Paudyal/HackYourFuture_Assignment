@@ -1,0 +1,828 @@
+[33mcommit d9d12dae5cd12a0a7e9a99457c8f2457caea45d8[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mIntroToBackend/Week1[m[33m, [m[1;31morigin/IntroToBackend/Week1[m[33m)[m
+Author: benjina-paudyal <benjina.paudyal@gmail.com>
+Date:   Wed Dec 17 20:20:19 2025 +0100
+
+    Added postmanlink for the DOG API
+
+[33mcommit 3696e90eebda31008a8e5fe4a1e7c0c39b799cd1[m
+Author: benjina-paudyal <benjina.paudyal@gmail.com>
+Date:   Wed Dec 17 20:15:35 2025 +0100
+
+    Assignmnet: Added web server and some routes
+
+[33mcommit fefe319773139e5820dffc84fb0e90bcfe78d792[m[33m ([m[1;32mmain[m[33m)[m
+Merge: 607823c d33d584
+Author: Benjina Paudyal <73122350+Benjina-Paudyal@users.noreply.github.com>
+Date:   Wed Dec 10 10:22:23 2025 +0100
+
+    Merge pull request #10 from Benjina-Paudyal/Web-Architecture101
+    
+    Added pdf document for the assignment Recipe Collection App
+
+[33mcommit d33d584270f24c0e12fe28539cc17c7ee312f499[m[33m ([m[1;31morigin/Web-Architecture101[m[33m, [m[1;32mWeb-Architecture101[m[33m)[m
+Author: Benjina Paudyal <benjina.paudyal@gmail.com>
+Date:   Wed Dec 3 11:02:08 2025 +0100
+
+     Readded the pdf document after got reviewed by mentor
+
+[33mcommit 607823c9852dd9331d1de6c49ea43015e8e164ea[m
+Merge: a8867c7 18a4a59
+Author: Benjina Paudyal <73122350+Benjina-Paudyal@users.noreply.github.com>
+Date:   Wed Dec 3 10:45:19 2025 +0100
+
+    Merge pull request #8 from Benjina-Paudyal/JS-week4/benjina
+    
+    Js week4/benjina
+
+[33mcommit 6b45120e765f1af5e450feb4b04801ee5b912cc1[m
+Author: Benjina Paudyal <benjina.paudyal@gmail.com>
+Date:   Tue Dec 2 10:03:47 2025 +0100
+
+    Added pdf document for the assignment Recipe Collection App
+
+[33mcommit 18a4a59bb905ab4815ada52ccdf8676bf006c307[m[33m ([m[1;31morigin/JS-week4/benjina[m[33m, [m[1;32mJS-week4/benjina[m[33m)[m
+Author: Benjina Paudyal <benjina.paudyal@gmail.com>
+Date:   Wed Nov 26 18:00:04 2025 +0100
+
+    Added assignment: Voice Assistant
+
+[33mcommit d7097e2d021b6a3a1630c352274e8b189557a70c[m
+Author: Benjina Paudyal <benjina.paudyal@gmail.com>
+Date:   Mon Nov 24 13:50:51 2025 +0100
+
+    Added codewars link for the given assignment.
+
+[33mcommit a8867c7decdfb2b669869154cfd8d700996123cf[m
+Merge: 0f22a1b 6768660
+Author: Benjina Paudyal <73122350+Benjina-Paudyal@users.noreply.github.com>
+Date:   Thu Nov 20 10:13:18 2025 +0100
+
+    Merge pull request #7 from Benjina-Paudyal/JS-week3/benjina
+    
+    Js week3/benjina
+
+[33mcommit 676866046dd2fe93ac8d721b4dd5429248f620c2[m[33m ([m[1;31morigin/JS-week3/benjina[m[33m, [m[1;32mJS-week3/benjina[m[33m)[m
+Author: Benjina Paudyal <benjina.paudyal@gmail.com>
+Date:   Wed Nov 19 19:57:36 2025 +0100
+
+     Updated CactusIO-interactive assignment with extra eature.
+
+[33mcommit 2c17d08068dcda251f43294ae01cc05e9f358f2b[m
+Author: Benjina Paudyal <benjina.paudyal@gmail.com>
+Date:   Wed Nov 19 13:46:39 2025 +0100
+
+    Added assignment: Cactus IO interactive
+
+[33mcommit 13def3565ea1ad711f98bec008e8917d56d79f34[m
+Author: Benjina Paudyal <benjina.paudyal@gmail.com>
+Date:   Wed Nov 19 11:16:34 2025 +0100
+
+    Added assignment: Note Taking App
+
+[33mcommit 211cb1905412c982029b321a6219713dc717727d[m
+Author: Benjina Paudyal <benjina.paudyal@gmail.com>
+Date:   Tue Nov 18 20:19:33 2025 +0100
+
+    Added assignment: Series Duration Of My Life
+
+[33mcommit 9a1a1af6cb300d697d87a70d1860fc61f32e8359[m
+Author: Benjina Paudyal <benjina.paudyal@gmail.com>
+Date:   Mon Nov 17 19:34:23 2025 +0100
+
+    Added assignment: When we will be there?
+
+[33mcommit 794d5700f51bcb5d0969715200f67e2c3f0e04d8[m
+Author: Benjina Paudyal <benjina.paudyal@gmail.com>
+Date:   Mon Nov 17 14:28:56 2025 +0100
+
+     Added Assignment: Item Array Removal
+
+[33mcommit 0f22a1b07d9d8c34a5932d9840870686621a5812[m
+Merge: 4a277f8 5afe080
+Author: Benjina Paudyal <73122350+Benjina-Paudyal@users.noreply.github.com>
+Date:   Mon Nov 17 13:35:06 2025 +0100
+
+    Merge branch 'HackYourFuture-CPH:main' into main
+
+[33mcommit 4a277f8d5829da87f6a44c200bedbef66484f854[m
+Merge: fac052f 9fe7e28
+Author: Benjina Paudyal <73122350+Benjina-Paudyal@users.noreply.github.com>
+Date:   Sun Nov 16 12:42:22 2025 +0100
+
+    Merge pull request #6 from Benjina-Paudyal/JS-week2/benjina
+    
+    Js week2/benjina
+
+[33mcommit 9fe7e2852a257451488778d5f8b97178acad7f71[m[33m ([m[1;31morigin/JS-week2/benjina[m[33m, [m[1;32mJS-week2/benjina[m[33m)[m
+Author: benjina-paudyal <benjina.paudyal@gmail.com>
+Date:   Sun Nov 16 12:39:54 2025 +0100
+
+    Updated solution in the class
+
+[33mcommit f2efb18b5dee7f889cbae1842575fee58fce6e7b[m
+Author: Benjina Paudyal <benjina.paudyal@gmail.com>
+Date:   Fri Nov 14 08:26:48 2025 +0100
+
+    Corrected spelling mistake in the Assignmnet Event Applicaiton
+
+[33mcommit 042252944a540891fbb3652fec58538eceb32a3e[m
+Author: Benjina Paudyal <benjina.paudyal@gmail.com>
+Date:   Fri Nov 14 08:21:49 2025 +0100
+
+    corrected the assignment: Candy Helper
+
+[33mcommit 36e387f6d393409b5cd96b576a859f5f688d9a57[m
+Author: Benjina Paudyal <benjina.paudyal@gmail.com>
+Date:   Tue Nov 11 12:00:13 2025 +0100
+
+    Added Assignment: Candy Helper
+
+[33mcommit f6270db7a08b079046840622d52d0b54219021c8[m
+Author: Benjina Paudyal <benjina.paudyal@gmail.com>
+Date:   Tue Nov 11 11:10:47 2025 +0100
+
+     Added assignment: Student Manager
+
+[33mcommit a77bf35a8adc682581525e25b3fe1ac7ec0711d9[m
+Author: Benjina Paudyal <benjina.paudyal@gmail.com>
+Date:   Mon Nov 10 20:22:48 2025 +0100
+
+    Added Assignment: Weather wear
+
+[33mcommit cb719d70b123147704f19fc2a7940f4d2c23b933[m
+Author: Benjina Paudyal <benjina.paudyal@gmail.com>
+Date:   Mon Nov 10 20:02:34 2025 +0100
+
+    Added Assignment: Event application
+
+[33mcommit 4985a8315ed37b6e68acaaf857268ba47c38f906[m
+Author: Benjina Paudyal <benjina.paudyal@gmail.com>
+Date:   Mon Nov 10 18:39:13 2025 +0100
+
+    Added Assignment : Formal fullname
+
+[33mcommit ea1cc4a518e600fb86c42faf9285786bf7bbab5a[m
+Author: Benjina Paudyal <benjina.paudyal@gmail.com>
+Date:   Mon Nov 10 14:47:46 2025 +0100
+
+    Added Assignment : Flight booking fullname function
+
+[33mcommit 653cb0f9418b4e68b4073c5d90c8d8b6e5c04b50[m
+Author: Benjina Paudyal <benjina.paudyal@gmail.com>
+Date:   Mon Nov 10 14:35:29 2025 +0100
+
+    Added new file named Javascript warmup which contians my freeCodeCamp username
+
+[33mcommit fac052f3eea14f3311a6b6670c613485f6276aad[m
+Merge: da0a8ce be1a50e
+Author: Benjina Paudyal <73122350+Benjina-Paudyal@users.noreply.github.com>
+Date:   Tue Nov 4 12:27:47 2025 +0100
+
+    Merge pull request #5 from Benjina-Paudyal/JS-week1/benjina
+    
+    Js week1/benjina
+
+[33mcommit be1a50e88b8316d365f562ec51f00cfd984fe3d1[m[33m ([m[1;31morigin/JS-week1/benjina[m[33m, [m[1;32mJS-week1/benjina[m[33m)[m
+Author: Benjina Paudyal <benjina.paudyal@gmail.com>
+Date:   Mon Nov 3 14:28:16 2025 +0100
+
+    Add Ez Namey(Startup name generator)
+
+[33mcommit 702899568a151fe46106f418759710f241486069[m
+Author: Benjina Paudyal <benjina.paudyal@gmail.com>
+Date:   Mon Nov 3 14:13:35 2025 +0100
+
+    Add Housey pricey (A house price estimator)
+
+[33mcommit 6e777c7ee73556828dc2c6cebdf9cb92c1dff7ee[m
+Author: Benjina Paudyal <benjina.paudyal@gmail.com>
+Date:   Mon Nov 3 13:38:28 2025 +0100
+
+    Goodboy-Oldboy (A dog age calculator)
+
+[33mcommit 91ebee39b9d2dbea237d554892313b9517f54753[m
+Author: Benjina Paudyal <benjina.paudyal@gmail.com>
+Date:   Mon Nov 3 13:16:52 2025 +0100
+
+    Add Age-ify (A future age calculator)
+
+[33mcommit 1cdff4ccf58150b60239baca7404bd7bd15f64da[m
+Author: Benjina Paudyal <benjina.paudyal@gmail.com>
+Date:   Mon Nov 3 13:00:02 2025 +0100
+
+    Add Step2-JavascriptWarmUpPartOne file which includes my freeCodeCamp username.
+
+[33mcommit 5afe08088d896c259a393c77f8b1dc10bd724f6c[m
+Merge: 31a9364 769f75d
+Author: Adam Blanchard <adamgoodie@gmail.com>
+Date:   Thu Oct 30 18:59:35 2025 +0100
+
+    Merge pull request #124 from jesusoterogomez/readme/submission_from_fork_example/1
+    
+    Updated README to include instructions to create PRs from forks
+
+[33mcommit 769f75d6ad81654296eb7d8e238e6e4fdc1a9ce8[m
+Author: Jesús Otero <jesus@avallone.io>
+Date:   Thu Oct 30 09:27:00 2025 +0100
+
+    keep original formatting
+
+[33mcommit 53661f1e7b39901b6d4fe54dd8f5cf07daca6f47[m
+Author: Jesús Otero <jesus@avallone.io>
+Date:   Thu Oct 30 09:17:35 2025 +0100
+
+    update README.md
+    - add general information about Forks
+    - add section to submission proccess to explain creating a PR from a Fork
+    - Fixed minor errors in spelling/list numbering
+    - Adjusted some wording in other sections
+
+[33mcommit aa527089ecd159b78f0f03b97ce80e76712f1c82[m
+Author: Jesús Otero <jesus@avallone.io>
+Date:   Thu Oct 30 09:16:03 2025 +0100
+
+    add annotated image demonstrating PRs from forks
+
+[33mcommit da0a8ced25543da210689067baa007a1c66eb2b6[m
+Merge: 0243d96 5688b8b
+Author: Benjina Paudyal <73122350+Benjina-Paudyal@users.noreply.github.com>
+Date:   Wed Oct 29 20:34:57 2025 +0100
+
+    Merge pull request #3 from Benjina-Paudyal/practise/pullrequest
+    
+    Second pull request for the same branch
+
+[33mcommit 0243d969459d66638497f78a1aac7dcc77ce0d3a[m
+Merge: 89fa770 68aebff
+Author: Benjina Paudyal <73122350+Benjina-Paudyal@users.noreply.github.com>
+Date:   Wed Oct 29 20:34:31 2025 +0100
+
+    Merge pull request #4 from Benjina-Paudyal/AI-week1/benjina
+    
+    Ai week1/benjina
+
+[33mcommit 31a93646b33bb0e1e0e7b449132f057cb356dd4a[m
+Merge: 9342ddc 72cca6f
+Author: Adam Blanchard <adamgoodie@gmail.com>
+Date:   Wed Oct 29 13:35:28 2025 +0100
+
+    Merge pull request #38 from HackYourFuture-CPH/space-galactica-improvements
+    
+    fix: small space galactica tweaks
+
+[33mcommit 9342ddca650963162333ebbac89d17dad265cfdc[m
+Merge: a26d200 677da2f
+Author: Adam Blanchard <adamgoodie@gmail.com>
+Date:   Tue Oct 28 11:11:12 2025 +0100
+
+    Merge pull request #34 from HackYourFuture-CPH/6-database-backend-sample-api
+    
+    Add materials used to follow along DB Backend sessions
+
+[33mcommit 677da2f9461be4363a5e225a7caf0582739faf8a[m
+Author: Adam Blanchard <adamgoodie@gmail.com>
+Date:   Tue Oct 28 10:34:50 2025 +0100
+
+    remove database solution and clearly mark sample data
+
+[33mcommit 68aebff4df858eab6e503fa877bbd43fce42ff50[m[33m ([m[1;31morigin/AI-week1/benjina[m[33m, [m[1;32mAI-week1/benjina[m[33m)[m
+Author: Benjina Paudyal <benjina.paudyal@gmail.com>
+Date:   Sun Oct 26 21:29:57 2025 +0100
+
+    updated CSS to to improve layout
+
+[33mcommit cd69f236eea0e9fc6e6c92b4c92c2d7a3bf26654[m
+Author: Benjina Paudyal <benjina.paudyal@gmail.com>
+Date:   Sun Oct 26 21:12:07 2025 +0100
+
+    Added the text file reflection.md
+
+[33mcommit 5a3303fa455f49314a40d382a851dccaa961dba5[m
+Author: Benjina Paudyal <benjina.paudyal@gmail.com>
+Date:   Sun Oct 26 20:45:46 2025 +0100
+
+    Added some changes in the code
+
+[33mcommit f95ce7bda0e8e72f9320e76f0abf7e3c4c1f2659[m
+Author: Benjina Paudyal <benjina.paudyal@gmail.com>
+Date:   Sun Oct 26 20:44:54 2025 +0100
+
+    Added basic javascript to change the background color randomly
+
+[33mcommit 87e3622bb302012182aa0629e1225b5dbd7ea697[m
+Author: Benjina Paudyal <benjina.paudyal@gmail.com>
+Date:   Sun Oct 26 20:41:34 2025 +0100
+
+    Added button for background color change
+
+[33mcommit 9dbc0697eafa6e7617c41ef3f5c0b68918fe1604[m
+Author: Benjina Paudyal <benjina.paudyal@gmail.com>
+Date:   Sun Oct 26 20:25:02 2025 +0100
+
+    Added initial styling for About Me page
+
+[33mcommit 50cb647f38407eb6c0ba30ec630d63a172c417e0[m
+Author: Benjina Paudyal <benjina.paudyal@gmail.com>
+Date:   Sun Oct 26 19:50:34 2025 +0100
+
+    Added initial HTML structure for ABout Me page
+
+[33mcommit 5688b8bf9ca38f4b0a748c3919e36c4ebb335e96[m[33m ([m[1;31morigin/practise/pullrequest[m[33m, [m[1;32mpractise/pullrequest[m[33m)[m
+Author: Benjina Paudyal <benjina.paudyal@gmail.com>
+Date:   Fri Oct 24 13:50:40 2025 +0200
+
+    added more lines to see what happens after merging the first pull request
+
+[33mcommit 89fa770745078be2d89b0b07e2fdc842eb891243[m
+Merge: c3b783a 1240bf0
+Author: Benjina Paudyal <73122350+Benjina-Paudyal@users.noreply.github.com>
+Date:   Fri Oct 24 13:05:02 2025 +0200
+
+    Merge pull request #2 from Benjina-Paudyal/practise/pullrequest
+    
+    added practise.txt file
+
+[33mcommit 1240bf03f31fe802f1f97043d3a4adfdcd0a2d72[m
+Author: Benjina Paudyal <benjina.paudyal@gmail.com>
+Date:   Fri Oct 24 13:00:46 2025 +0200
+
+    added practise.txt file
+
+[33mcommit c3b783ae4c97be332e15a7d4a962c1d104face34[m
+Merge: a26d200 a423e3d
+Author: Benjina Paudyal <73122350+Benjina-Paudyal@users.noreply.github.com>
+Date:   Thu Oct 23 16:36:20 2025 +0200
+
+    Merge pull request #1 from Benjina-Paudyal/git-week1/benjina
+    
+    Git Exercise/Week1/Benjina
+
+[33mcommit a423e3dada34244ac492fc2bf660428796b46ad3[m[33m ([m[1;31morigin/git-week1/benjina[m[33m, [m[1;32mgit-week1/benjina[m[33m)[m
+Author: Benjina Paudyal <benjina.paudyal@gmail.com>
+Date:   Wed Oct 22 12:00:46 2025 +0200
+
+    Add threee files my-favorite-food, my-second-favorite-food and countries
+
+[33mcommit 72cca6f11db51a35884260c02fd3f1ecbd4780fc[m
+Author: shpomp <karolina.urnieziute@gmail.com>
+Date:   Tue Oct 14 20:51:31 2025 +0200
+
+    fix: small space galactica tweaks
+
+[33mcommit 45db8ebc56d144576df6f40ef5cc4f0084dd4b25[m
+Author: shpomp <karolina.urnieziute@gmail.com>
+Date:   Tue Oct 14 20:45:09 2025 +0200
+
+    fix: small space galactica tweaks
+
+[33mcommit a26d200ed5fce7a00cca6a1ff59d32831a92e0e6[m
+Merge: 281cfbd c19324a
+Author: Adam Blanchard <adamgoodie@gmail.com>
+Date:   Tue Oct 14 12:48:33 2025 +0200
+
+    Merge pull request #37 from HackYourFuture-CPH/update-forking-instructions
+    
+    "Fork" rather than "use template"
+
+[33mcommit 6fdd40c9c2ce41e4633a767cfd562d0bba3af6c1[m
+Author: Marco Richetta <marcorichetta@gmail.com>
+Date:   Tue Oct 14 12:30:27 2025 +0200
+
+    add env config: adapting code, env variables, dependencies
+
+[33mcommit c19324a927ab56e9e7efd3c7d67d8e2993e00003[m
+Author: Adam Blanchard <adamgoodie@gmail.com>
+Date:   Tue Oct 14 10:55:42 2025 +0200
+
+    Fixed indentation of image so it displays
+
+[33mcommit 39fcfc6024400a01bf9ffa2c3b9004485935a49b[m
+Merge: 39cbb45 281cfbd
+Author: Adam Blanchard <adamgoodie@gmail.com>
+Date:   Tue Oct 14 10:51:29 2025 +0200
+
+    Merge branch 'main' into update-forking-instructions
+
+[33mcommit 39cbb45efec74cefddb3ac9e1d508cdfda1f7ade[m
+Author: Adam Blanchard <adamgoodie@gmail.com>
+Date:   Tue Oct 14 10:47:17 2025 +0200
+
+    Updated assignment instructions to fork rather than use template
+
+[33mcommit 281cfbd925dc447bc9c86a6b69fe72f87349aa5a[m
+Merge: 1586560 2b650b3
+Author: Adam Blanchard <adamgoodie@gmail.com>
+Date:   Tue Oct 14 09:43:29 2025 +0200
+
+    Merge pull request #35 from HackYourFuture-CPH/space-galactica-app
+    
+    Space Galactica App
+
+[33mcommit 2b650b3876897ce7df329aae7e3fa2c724fec80d[m
+Merge: ea4703d 1586560
+Author: Adam Blanchard <adamgoodie@gmail.com>
+Date:   Tue Oct 14 09:36:44 2025 +0200
+
+    Merge branch 'main' into space-galactica-app
+
+[33mcommit ea4703d01e8e26c90c1809626797e1f1b356c0f0[m
+Author: Adam Blanchard <adamgoodie@gmail.com>
+Date:   Tue Oct 14 09:36:00 2025 +0200
+
+    Updated readme to make sense in this new repo
+
+[33mcommit b0cc7196d809e7b84c1b86b919b01e283961750f[m
+Author: Adam Blanchard <adamgoodie@gmail.com>
+Date:   Tue Oct 14 09:28:54 2025 +0200
+
+    Moved from react-1-hw repo
+
+[33mcommit 658ad47eab6c72ada57cb0d526215631549957a0[m
+Author: Marco Richetta <marcorichetta@gmail.com>
+Date:   Tue Oct 7 11:49:48 2025 +0200
+
+    feat: add materials used to follow along DB Backend sessions
+
+[33mcommit 816c2c58bcf050ad117ac1703a9470cd6fb722bf[m
+Author: Marco Richetta <marcorichetta@gmail.com>
+Date:   Tue Oct 7 11:48:36 2025 +0200
+
+    add global .gitignore
+
+[33mcommit 1586560b4d36b21a1b24a53969d57114e6f134c3[m
+Merge: a34ad32 af3e17b
+Author: Adam Blanchard <adamgoodie@gmail.com>
+Date:   Tue Aug 26 14:52:12 2025 +0200
+
+    Merge pull request #32 from HackYourFuture-CPH/new-programme-format
+    
+    Mirror new programme structure
+
+[33mcommit af3e17b99569c6757bc7694e40e42907446299f2[m
+Author: Adam Blanchard <adamgoodie@gmail.com>
+Date:   Tue Aug 26 14:42:05 2025 +0200
+
+    mirror new programme directory structure
+
+[33mcommit a34ad324effbf4d38c5b6b8ced252d4369df9517[m
+Merge: 37e0aef 296e396
+Author: Adam Blanchard <adamgoodie@gmail.com>
+Date:   Tue Jul 29 15:09:45 2025 +0200
+
+    Merge pull request #31 from HackYourFuture-CPH/improved-submission-instructions
+    
+    Improved Assignment submission instructions
+
+[33mcommit 37e0aefd5377bac2e4548583dbc0dd44bae8cad0[m
+Merge: 77a6942 32db5c6
+Author: Adam Blanchard <adamgoodie@gmail.com>
+Date:   Wed Jul 23 12:49:50 2025 +0200
+
+    Merge pull request #30 from HackYourFuture-CPH/intro-to-frontend
+    
+    Added intro to frontend assignment templates
+
+[33mcommit 296e396a2cb55cb9718db85f9a23bc78c11dca4d[m
+Author: Adam Blanchard <adamgoodie@gmail.com>
+Date:   Tue Jul 22 11:16:28 2025 +0200
+
+    Fixed heading sizes
+
+[33mcommit 1871a5c5a6ddd3d517ebe7719fa6093a620ce787[m
+Author: Adam Blanchard <adamgoodie@gmail.com>
+Date:   Tue Jul 22 11:10:47 2025 +0200
+
+    Revert "Revert "Added more indepth instructions for completing and submitting assignments""
+    
+    This reverts commit 09af0b79110801a54232ff68061eff11db6bfdab.
+
+[33mcommit abf58bf3304882298a7d3b655589dff89220119b[m
+Author: Adam Blanchard <adamgoodie@gmail.com>
+Date:   Tue Jul 22 11:10:21 2025 +0200
+
+    Revert "Revert "updated images and moved them into the repo""
+    
+    This reverts commit 77a6942b0222c9d4dd61bbf3bf84a55858f76175.
+
+[33mcommit 77a6942b0222c9d4dd61bbf3bf84a55858f76175[m
+Author: Adam Blanchard <adamgoodie@gmail.com>
+Date:   Tue Jul 22 11:09:09 2025 +0200
+
+    Revert "updated images and moved them into the repo"
+    
+    This reverts commit e8be0b98837864d303c111ff7d4737514447a173.
+
+[33mcommit 09af0b79110801a54232ff68061eff11db6bfdab[m
+Author: Adam Blanchard <adamgoodie@gmail.com>
+Date:   Tue Jul 22 11:08:58 2025 +0200
+
+    Revert "Added more indepth instructions for completing and submitting assignments"
+    
+    This reverts commit bd19d2729271b0592503f90c79c962c4a31bd0bc.
+
+[33mcommit bd19d2729271b0592503f90c79c962c4a31bd0bc[m
+Author: Adam Blanchard <adamgoodie@gmail.com>
+Date:   Tue Jul 22 11:04:06 2025 +0200
+
+    Added more indepth instructions for completing and submitting assignments
+
+[33mcommit e8be0b98837864d303c111ff7d4737514447a173[m
+Author: Adam Blanchard <adamgoodie@gmail.com>
+Date:   Tue Jul 22 10:50:14 2025 +0200
+
+    updated images and moved them into the repo
+
+[33mcommit 32db5c69ea5dbaae20edb2468f971b66b1566316[m
+Author: Adam Blanchard <adamgoodie@gmail.com>
+Date:   Tue Jul 22 10:03:53 2025 +0200
+
+    Added intro to frontend assignment templates
+
+[33mcommit 2d13999f695cb05ee8b5becaefe4de07569ea422[m
+Merge: 50fb6ff f0004ef
+Author: Adam Blanchard <adamgoodie@gmail.com>
+Date:   Sat Jun 28 11:40:34 2025 +0200
+
+    Merge pull request #29 from HackYourFuture-CPH/intro-to-backend
+    
+    Added skeleton exercises for Intro to Backend
+
+[33mcommit f0004effcad9758c4ea99abfeaa1c5c0b42a8378[m
+Author: Adam Blanchard <adamgoodie@gmail.com>
+Date:   Wed Jun 25 10:01:21 2025 +0200
+
+    Update intro-to-backend/exercise2.js
+    
+    Co-authored-by: Marco Richetta <marcorichetta@gmail.com>
+
+[33mcommit f831e2a2d622240949f8c30fc3ddca0551f056a1[m
+Author: Adam Blanchard <adamgoodie@gmail.com>
+Date:   Wed Jun 25 10:00:55 2025 +0200
+
+    Update intro-to-backend/exercise1.js
+    
+    Co-authored-by: Marco Richetta <marcorichetta@gmail.com>
+
+[33mcommit f2ef60d2879dbc1466d59b74372b6aab4b87ec59[m
+Author: Adam Blanchard <adamgoodie@gmail.com>
+Date:   Wed Jun 25 10:00:47 2025 +0200
+
+    Update intro-to-backend/exercise2.js
+    
+    Co-authored-by: Marco Richetta <marcorichetta@gmail.com>
+
+[33mcommit 3ec8bdbdc22b48497e19c26c35a6fb72f0daa352[m
+Author: Adam Blanchard <adamgoodie@gmail.com>
+Date:   Tue Jun 24 14:26:44 2025 +0200
+
+    added skeleton exercises for intro to backend
+
+[33mcommit 50fb6ff341de9af48eb3bcf2faf949b4a2525195[m
+Merge: cdf2c4a ba84090
+Author: Adam Blanchard <adamgoodie@gmail.com>
+Date:   Tue Mar 18 09:44:18 2025 +0100
+
+    Merge pull request #28 from HackYourFuture-CPH/explicit-review-tips
+    
+    Make review steps more explicit with a tip
+
+[33mcommit ba84090c03a4f3acd2e00fe86ff76c1dc39b2734[m
+Author: Adam Blanchard <adamgoodie@gmail.com>
+Date:   Tue Mar 11 10:04:14 2025 +0100
+
+    Fix numbering
+
+[33mcommit c1e72b2bae1037fbf111a299e4924290695d7d44[m
+Author: Adam Blanchard <adamgoodie@gmail.com>
+Date:   Tue Mar 11 10:01:59 2025 +0100
+
+    Make review steps more explicit with a tip
+
+[33mcommit cdf2c4af94b1a9cbbe75cd7d12af32a6198ae590[m
+Merge: 142b44f 9597215
+Author: Adam Blanchard <adamgoodie@gmail.com>
+Date:   Mon Feb 24 14:38:21 2025 +0100
+
+    Merge pull request #27 from HackYourFuture-CPH/new-assignment-submission-instructions
+    
+    Updating assignment process documentation
+
+[33mcommit 9597215b3c136f77dc663bc895060a5517148a1e[m
+Author: Adam Blanchard <adamgoodie@gmail.com>
+Date:   Mon Feb 24 09:46:04 2025 +0100
+
+    Review suggestions
+
+[33mcommit b76dbf9047eed86365c24d7edec064c94eaa0751[m
+Author: Adam Blanchard <adamgoodie@gmail.com>
+Date:   Mon Feb 24 09:14:04 2025 +0100
+
+    Update README.md
+    
+    Co-authored-by: Marco Richetta <marcorichetta@gmail.com>
+
+[33mcommit bd5372be32111e32e9e3425d54722e287f22c6d5[m
+Author: Adam Blanchard <adamgoodie@gmail.com>
+Date:   Tue Feb 18 11:52:38 2025 +0100
+
+    Updated alt desacription
+
+[33mcommit d97dae0aa4c9f8763e7f129c1cbdf5eb4c87376b[m
+Author: Adam Blanchard <adamgoodie@gmail.com>
+Date:   Tue Feb 18 11:50:53 2025 +0100
+
+    Added example of google sheet
+
+[33mcommit 98767d37e689c910a379b2d59ae65798566b7a49[m
+Author: Adam Blanchard <adamgoodie@gmail.com>
+Date:   Tue Feb 18 10:55:47 2025 +0100
+
+    Update README.md
+
+[33mcommit 0484476e2c256284d333fb32502184627c08035f[m
+Author: Adam Blanchard <adamgoodie@gmail.com>
+Date:   Mon Feb 17 16:01:01 2025 +0100
+
+    Update README.md
+
+[33mcommit 142b44ffb665cbc76395064015826e497aff2462[m
+Author: Daniel Fernandes <daniel.pastor.fernandes@gmail.com>
+Date:   Wed Jun 29 13:54:22 2022 +0200
+
+    README.md -Changing instructions from master to main
+    
+    README.md -Changing instructions from master to main
+
+[33mcommit 119e11733b290a879a5a42ddc58b83366f4ff21d[m
+Author: Daniel Fernandes <daniel.pastor.fernandes@gmail.com>
+Date:   Wed Feb 23 15:38:47 2022 +0100
+
+    Delete react/week5 directory
+
+[33mcommit c22e05cfe4d5c5e40d9048ea3d7e004782c55b75[m
+Author: Daniel Fernandes <daniel.pastor.fernandes@gmail.com>
+Date:   Wed Feb 23 15:38:37 2022 +0100
+
+    Delete react/week4 directory
+
+[33mcommit 8b2a5106b1ef3b7df0c0eca9d96d05e7bf5418e8[m
+Author: Daniel Fernandes <daniel.pastor.fernandes@gmail.com>
+Date:   Wed Feb 23 15:38:28 2022 +0100
+
+    Delete react/week3 directory
+
+[33mcommit 7c608f3fa5f69d71ecd3790d41646e317a0b2cc9[m
+Author: Daniel Fernandes <daniel.pastor.fernandes@gmail.com>
+Date:   Wed Feb 23 15:38:19 2022 +0100
+
+    Delete react/week2 directory
+
+[33mcommit 0034eeffbb9b344051c829cbfb4c56804ff825f0[m
+Author: Daniel Fernandes <daniel.pastor.fernandes@gmail.com>
+Date:   Wed Feb 23 15:38:07 2022 +0100
+
+    Delete react/week1 directory
+
+[33mcommit 86b49dd94af162adf17122ba741ca892bca4949e[m
+Author: Daniel Fernandes <daniel.pastor.fernandes@gmail.com>
+Date:   Wed Feb 23 15:37:35 2022 +0100
+
+    React 2 week 2 readme.md
+
+[33mcommit 66ac7a8c51eb4fb6d806f93d04af7f19a6cfa522[m
+Author: Daniel Fernandes <daniel.pastor.fernandes@gmail.com>
+Date:   Wed Feb 23 15:37:15 2022 +0100
+
+    React 2 week 1 readme.md
+
+[33mcommit 7558a47114ae4ef7b1262d24a913b81d29d145b7[m
+Author: Daniel Fernandes <daniel.pastor.fernandes@gmail.com>
+Date:   Wed Feb 23 15:36:15 2022 +0100
+
+    React 1 week 3 readme.md
+
+[33mcommit bf489ead8ffe127fc2f5717bff494decff8c462d[m
+Author: Daniel Fernandes <daniel.pastor.fernandes@gmail.com>
+Date:   Wed Feb 23 15:35:30 2022 +0100
+
+    React 1 week 2 readme.md
+
+[33mcommit e04bc682f41e309cbe50ab4667096af6a30fd4f5[m
+Author: Daniel Fernandes <daniel.pastor.fernandes@gmail.com>
+Date:   Wed Feb 23 15:33:59 2022 +0100
+
+    React 1 week 1 readme.md
+
+[33mcommit 4d2e1e1e2cfc5404892841265374c9db7eede400[m
+Merge: c2b5183 3106a7b
+Author: Ditlev Tøjner <80318505+ditlevHYF@users.noreply.github.com>
+Date:   Tue Sep 21 14:18:56 2021 +0200
+
+    Merge pull request #8 from HackYourFuture-CPH/ditlevHYF-patch-1
+    
+    updated new branch name
+
+[33mcommit 3106a7bc41560a987cb2038a31734e1645eff385[m
+Author: Ditlev Tøjner <80318505+ditlevHYF@users.noreply.github.com>
+Date:   Tue Sep 21 14:16:42 2021 +0200
+
+    updated new branch name
+    
+    we should no longer use / as the devider between branchnames nodejs-week1
+
+[33mcommit c2b518302d32cabe2e356f0848060e6c77e326d6[m
+Author: Ditlev Tøjner <80318505+ditlevHYF@users.noreply.github.com>
+Date:   Wed May 5 16:28:51 2021 +0200
+
+    Delete nodejs/week5 directory
+
+[33mcommit 1d14084db2b5b1a21783a74d332f3ec48e6a7b90[m
+Author: Ditlev Tøjner <80318505+ditlevHYF@users.noreply.github.com>
+Date:   Wed May 5 16:28:43 2021 +0200
+
+    Delete nodejs/week4 directory
+
+[33mcommit ae1e068d3b2a2e257dbb82d59c0b48b0c66a06b0[m
+Author: Ditlev Tøjner <80318505+ditlevHYF@users.noreply.github.com>
+Date:   Wed May 5 16:15:24 2021 +0200
+
+    Create README.md
+
+[33mcommit 4af20918e6c0268ded8596df0d099d4e8caf36f0[m
+Merge: 01e1058 cee5f54
+Author: behuFTP <benjamin.dals.hughes@gmail.com>
+Date:   Tue Mar 31 12:37:59 2020 +0200
+
+    removed node projects from template
+
+[33mcommit 01e1058e12e20ff0cd2676d8fb2a4c6378854eee[m
+Author: behuFTP <benjamin.dals.hughes@gmail.com>
+Date:   Tue Mar 31 12:35:39 2020 +0200
+
+    removed node js from homework
+
+[33mcommit cee5f54b11063a2499ecd98c919b1aa4706f66ce[m
+Author: benna100 <benna100@users.noreply.github.com>
+Date:   Thu Mar 5 15:06:04 2020 +0100
+
+    Update readme.md
+
+[33mcommit 5c19ae0abf4e71b64cf6446ea28809394b182356[m
+Author: benna100 <benna100@users.noreply.github.com>
+Date:   Thu Mar 5 15:04:01 2020 +0100
+
+    Update index.js
+
+[33mcommit 603921bc8ae3b11229a461bed33a253da12d1406[m
+Author: benna100 <benna100@users.noreply.github.com>
+Date:   Thu Mar 5 15:03:33 2020 +0100
+
+    Update readme.md
+
+[33mcommit f625dd62585075a7263d1fb6227a7eb5a52ae1b2[m
+Author: benna100 <benna100@users.noreply.github.com>
+Date:   Thu Mar 5 15:02:47 2020 +0100
+
+    Update readme.md
+
+[33mcommit ccf676fdac62264a54eedd3528642b31c02e763f[m
+Author: benna100 <benna100@users.noreply.github.com>
+Date:   Thu Mar 5 15:01:17 2020 +0100
+
+    Update readme.md
+
+[33mcommit d032177ea1194b2536612da479155875e88fc40b[m
+Author: benna100 <benna100@users.noreply.github.com>
+Date:   Thu Mar 5 15:00:51 2020 +0100
+
+    Update package.json
+
+[33mcommit 615070825bf3b2172c427e8e8081785239f8bec3[m
+Author: behuFTP <benjamin.dals.hughes@gmail.com>
+Date:   Fri Feb 14 12:52:01 2020 +0100
+
+    updated template for node
+
+[33mcommit d960d707aa00109f3cde4d10bb3977d9b042f8f1[m
+Author: behuFTP <benjamin.dals.hughes@gmail.com>
+Date:   Thu Feb 6 16:34:11 2020 +0100
+
+    remove javascript3 week4
+
+[33mcommit d65b35f9a9f37086782ad0f8f9bf42e8422ed0fe[m
+Author: behuFTP <benjamin.dals.hughes@gmail.com>
+Date:   Wed Aug 14 15:04:05 2019 +0200
+
+    Added week4
+
+[33mcommit adafa3fef174cba0fce81d85b5bddfa17f0c5704[m
+Author: behuFTP <benjamin.dals.hughes@gmail.com>
+Date:   Tue Apr 9 14:55:08 2019 +0200
+
+    Add readme text and extra git and js week
+
+[33mcommit d294a4f0c8df1381f1a3694133758d4ead785a60[m
+Author: behuFTP <benjamin.dals.hughes@gmail.com>
+Date:   Fri Sep 14 11:58:51 2018 +0200
+
+    init commit
