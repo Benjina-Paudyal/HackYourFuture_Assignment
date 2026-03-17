@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Listings demo – Generate and render</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Listings demo – Generate and render</h1>
+
+    <div class="toolbar">
+      <button
+        class="btn-generate"
+        type="button"
+        onclick="generateAndRenderListings();"
+      >
+        Generate listings (37) — Task 1
+      </button>
+      <button
+        class="btn-prices"
+        type="button"
+        onclick="showPrices(currentListings);"
+      >
+        Show prices — Task 2
+      </button>
+      <span class="count" id="count">No listings yet. Click Generate.</span>
+    </div>
+
+    <div class="filters">
+      <span class="filters-label">Filters (Task 3):</span>
+      <button
+        class="btn-filter"
+        type="button"
+        onclick="showCheapListings(currentListings);"
+      >
+        Cheap listings — Task 3a
+      </button>
+      <button
+        class="btn-filter"
+        type="button"
+        onclick="showExpensivePrices(currentListings);"
+      >
+        Expensive prices — Task 3b
+      </button>
+      <button
+        class="btn-filter"
+        type="button"
+        onclick="showListingsWithParking(currentListings);"
+      >
+        With parking — Task 3c
+      </button>
+    </div>
+
+    <form
+      class="advanced-filters"
+      id="advancedFiltersForm"
+      onsubmit="applyAdvancedFilters(); return false;"
+    >
+      <span class="filters-label"
+        >Advanced filters (Task 4 – Listing project):</span
+      >
+      <div class="field">
+        <label for="advType">Type</label>
+        <select id="advType" name="type">
+          <option value="">All types</option>
+          <option value="House">House</option>
+          <option value="Apartment">Apartment</option>
+          <option value="Shed">Shed</option>
+          <option value="Dorm">Dorm</option>
+          <option value="Farm">Farm</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="advMinPrice">Min price</label>
+        <input
+          type="number"
+          id="advMinPrice"
+          name="minPrice"
+          min="0"
+          placeholder="e.g. 1000"
+        />
+      </div>
+      <div class="field">
+        <label for="advMinSize">Min size (m²)</label>
+        <input
+          type="number"
+          id="advMinSize"
+          name="minSize"
+          min="0"
+          placeholder="e.g. 100"
+        />
+      </div>
+      <div class="field facilities">
+        <label>Facilities</label>
+        <label
+          ><input type="checkbox" name="advFacility" value="Parkering" />
+          Parkering</label
+        >
+        <label
+          ><input type="checkbox" name="advFacility" value="Elevator" />
+          Elevator</label
+        >
+        <label
+          ><input type="checkbox" name="advFacility" value="Altan" />
+          Altan</label
+        >
+        <label
+          ><input type="checkbox" name="advFacility" value="Have" /> Have</label
+        >
+        <label
+          ><input type="checkbox" name="advFacility" value="Husdyr" />
+          Husdyr</label
+        >
+      </div>
+      <div class="field">
+        <label
+          ><input type="checkbox" id="advHasGarden" name="hasGarden" /> Has
+          garden</label
+        >
+      </div>
+      <button class="btn-apply" type="submit">Apply filters — Task 4</button>
+    </form>
+
+    <div class="empty" id="empty">
+      Click “Generate listings” to create 37 random listings and render them as
+      cards.
+    </div>
+    <div class="prices" id="prices"></div>
+    <div class="prices" id="expensive-prices"></div>
+    <div class="cards" id="cards"></div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
