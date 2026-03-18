@@ -14,30 +14,29 @@ const order = {
 };
 
 function processOrder(order) {
-    console.log("Processing order", order.id);
+  console.log("Processing order", order.id);
 
-    validateOrder(order, (validation) => {
-        if(!validation.valid) {
-            console.log("Validation failed:", validation.errors);
-            return;
+  validateOrder(order, (validation) => {
+    if (!validation.valid) {
+      console.log("Validation failed:", validation.errors);
+      return;
+    }
+    console.log("Validation passed");
+
+    calculateTotal(order, (pricing) => {
+      console.log("Total:", pricing.total, "DKK");
+
+      checkStock(order, (stock) => {
+        if (!stock.inStock) {
+          console.log("Stock shortages:", stock.shortages);
+        } else {
+          console.log("All items are in the stock");
         }
-        console.log("Validation passed");
 
-
-        calculateTotal(order, (pricing) => {
-            console.log("Total:", pricing.total, "DKK");
-
-        checkStock(order, (stock) => {
-            if (!stock.inStock) {
-                console.log("Stock shortages:", stock.shortages);
-            } else {
-                console.log("All items are in the stock");
-            }
-
-            console.log("Order processing completed");
-        })
-        });
+        console.log("Order processing completed");
+      });
     });
+  });
 }
 
 processOrder(order);

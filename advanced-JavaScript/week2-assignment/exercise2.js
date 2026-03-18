@@ -54,7 +54,6 @@ export function checkStock(order, callback) {
   }, 400);
 }
 
-
 //test
 // validateOrder(order, (result) => {
 //   console.log("Validation result:", result);
