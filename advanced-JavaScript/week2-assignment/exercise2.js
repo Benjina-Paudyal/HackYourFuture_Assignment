@@ -12,7 +12,7 @@ const order = {
   ],
 };
 
-function validateOrder(order, callback) {
+export function validateOrder(order, callback) {
   setTimeout(() => {
     const errors = order.items
       .filter((item) => !teas.find((t) => t.id === item.teaId))
@@ -22,7 +22,7 @@ function validateOrder(order, callback) {
   }, 200);
 }
 
-function calculateTotal(order, callback) {
+export function calculateTotal(order, callback) {
   setTimeout(() => {
     const total = order.items.reduce((sum, item) => {
       const tea = teas.find((t) => t.id === item.teaId);
@@ -33,7 +33,7 @@ function calculateTotal(order, callback) {
   }, 300);
 }
 
-function checkStock(order, callback) {
+export function checkStock(order, callback) {
   setTimeout(() => {
     const shortages = [];
 
@@ -54,15 +54,16 @@ function checkStock(order, callback) {
   }, 400);
 }
 
+
 //test
-validateOrder(order, (result) => {
-  console.log("Validation result:", result);
-});
+// validateOrder(order, (result) => {
+//   console.log("Validation result:", result);
+// });
 
-calculateTotal(order, (result) => {
-  console.log("Total price:", result);
-});
+// calculateTotal(order, (result) => {
+//   console.log("Total price:", result);
+// });
 
-checkStock(order, (result) => {
-  console.log("Stock check:", result);
-});
+// checkStock(order, (result) => {
+//   console.log("Stock check:", result);
+// });
