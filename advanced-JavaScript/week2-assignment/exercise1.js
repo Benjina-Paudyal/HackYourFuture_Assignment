@@ -4,8 +4,6 @@ import { teas } from "../data/teas.js";
 
 function stockByCaffeine(teas) {
   return teas.reduce((acc, tea) => {
-    if (!tea.inStock) return acc;
-
     const level = tea.caffeineLevel;
 
     if (!acc[level]) {
