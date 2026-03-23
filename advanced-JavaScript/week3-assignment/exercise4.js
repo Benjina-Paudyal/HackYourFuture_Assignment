@@ -1,6 +1,6 @@
 const API_BASE = "https://tea-api-787553294298.europe-west1.run.app/api";
 
-async function checkOrderStock(items) {
+export async function checkOrderStock(items) {
   const response = await fetch(`${API_BASE}/inventory`);
   if (!response.ok) {
     throw new Error("Could not fetch inventory.");
