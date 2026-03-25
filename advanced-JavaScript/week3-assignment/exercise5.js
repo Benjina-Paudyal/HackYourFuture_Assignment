@@ -1,61 +1,12 @@
+import { calculateOrderTotal } from "./exercise3.js";
+import { checkOrderStock } from "./exercise4.js";
+
 const API_BASE = "https://tea-api-787553294298.europe-west1.run.app/api";
 
-// exercise3
-async function calculateOrderTotal(items) {
-  const response = await fetch(`${API_BASE}/teas`);
-  if (!response.ok) throw new Error("Failed to fetch teas.");
-
-  const allTeas = await response.json();
-
-  return items.reduce((sum, item) => {
-    const tea = allTeas.find((t) => t.id === item.teaId);
-    if (!tea) throw new Error(`Tea Id ${item.teaId} missing`);
-    return sum + tea.pricePerGram * item.grams;
-  }, 0);
-}
-
-// exercise4
-async function checkOrderStock(items) {
-  const response = await fetch(`${API_BASE}/inventory`);
-  if (!response.ok) throw new Error("Could not fetch inventory.");
-
-  const allInventory = await response.json();
-
-  const shortages = items
-    .map((item) => {
-      const stockInfo = allInventory.find((i) => i.teaId === item.teaId);
-
-      if (!stockInfo) {
-        return {
-          name: `Unknown Tea (Id: ${item.teaId})`,
-          needed: item.grams,
-          available: 0,
-        };
-      }
-
-      if (stockInfo.stockCount < item.grams) {
-        return {
-          name: stockInfo.teaName,
-          needed: item.grams,
-          available: stockInfo.stockCount,
-        };
-      }
-
-      return null;
-    })
-    .filter(Boolean);
-
-  return {
-    inStock: shortages.length === 0,
-    shortages,
-  };
-}
-
-// exercise5
 async function processOrder(items) {
   console.log("Processing order...\n");
 
-  // Step 1: Validate items exist
+  // Validate items exist
   console.log("1. Validating items...");
   const res = await fetch(`${API_BASE}/teas`);
   if (!res.ok) throw new Error("Failed to fetch teas.");
@@ -68,7 +19,7 @@ async function processOrder(items) {
     }
   }
 
-  // Step 2: Check stock
+  // Check stock
   console.log("2. Checking stock...");
   const stockResult = await checkOrderStock(items);
   if (!stockResult.inStock) {
@@ -79,11 +30,11 @@ async function processOrder(items) {
     throw new Error("Items out of stock");
   }
 
-  // Step 3: Calculate total
+  // Calculate total
   console.log("3. Calculating total...");
   const total = await calculateOrderTotal(items);
 
-  // Step 4: Create order summary
+  // Create order summary
   console.log("4. Creating summary...\n");
   return {
     items: items.length,
@@ -91,6 +42,7 @@ async function processOrder(items) {
     status: "ready",
   };
 }
+
 
 // Test
 const myOrder = [

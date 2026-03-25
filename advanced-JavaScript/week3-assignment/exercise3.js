@@ -15,6 +15,8 @@ export async function calculateOrderTotal(items) {
   return total;
 }
 
+
+
 // Test
 const order = [
   { teaId: 1, grams: 100 },
