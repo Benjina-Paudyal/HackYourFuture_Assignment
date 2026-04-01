@@ -2,7 +2,7 @@ import { teas } from "./data/teas.js";
 import { Tea } from "./exercise1.js";
 
 
-class Inventory {
+export class Inventory {
   constructor() {
     this.items = new Map();
   }
