@@ -1,7 +1,7 @@
 import { Tea } from "./exercise1.js"
 import { teas } from "./data/teas.js";
 
-class OrderItem {
+export class OrderItem {
   constructor(tea, grams) {
     if (!(tea instanceof Tea)) {
       throw new Error("Tea mist be a Tea instance");
@@ -24,7 +24,7 @@ class OrderItem {
   }
 }
 
-class Order {
+export class Order {
   constructor() {
     this.items = [];
     this.status = "pending";
