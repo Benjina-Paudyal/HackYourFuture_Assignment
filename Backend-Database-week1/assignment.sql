@@ -149,6 +149,7 @@ ORDER BY
         WHEN 'High' THEN 1
         WHEN 'Medium' THEN 2
         WHEN 'Low' THEN 3
+        ELSE 4
     END,
     due_date ASC;
 
