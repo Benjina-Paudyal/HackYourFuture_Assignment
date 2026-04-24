@@ -7,19 +7,19 @@ FROM task;
 
 -- Part A, Question 2: Count how many tasks each user has been assigned (include users with zero tasks)
 SELECT u.name, COUNT(t.id) AS task_count
-FROM user user
-LEFT JOIN task t ON u.id = t.user_id
-GROUP BY u.id, u.name
+FROM user u
+LEFT JOIN task t ON t.user_id = u.id
+GROUP BY u.name
 
 -- Part A, Question 3: Find the number of tasks per status (e.g., how many are "To Do", "In Progress", "Done")
 SELECT s.name AS status_name, COUNT(t.id) AS task_count
-FROM status status
+FROM status s
 LEFT JOIN task t ON s.id = t.status_id
 GROUP BY s.id, s.name;
 
 -- Part A, Question 4: Find the user who has the most tasks assigned
 SELECT u.name, COUNT(t.id) AS task_count
-FROM user user
+FROM user u
 JOIN task t ON u.id = t.user_id
 GROUP BY u.id, u.name
 ORDER BY task_count DESC
@@ -42,14 +42,14 @@ FROM task;
 
 -- Part A, Question 7:  List each category along with the number of tasks it contains, ordered from most to least tasks
 SELECT c.name, COUNT(tc.task_id) AS task_count
-FROM category category
+FROM category c
 LEFT JOIN task_category tc ON c.id = tc.category_id
 GROUP BY c.id, c.name
 ORDER BY task_count DESC;
 
 -- Part A, Question 8: Find all users who have more than 2 tasks assigned to them
 SELECT u.name, COUNT(t.id) AS task_count
-FROM user user
+FROM user u
 JOIN task t ON u.id = t.user_id
 GROUP BY u.id, u.name
 HAVING COUNT(t.id) > 2;
@@ -93,7 +93,7 @@ ROLLBACK;
 -- Part D : Putting It All Together : Question 1
 BEGIN TRANSACTION;
     INSERT INTO category (name) VALUES ('Urgent');
-    INSERT INTO task:category (task_id, category_id)
+    INSERT INTO task_category (task_id, category_id)
     SELECT t.id, last_insert_rowid()
     FROM task t
     JOIN status s ON t.status_id = s.id
