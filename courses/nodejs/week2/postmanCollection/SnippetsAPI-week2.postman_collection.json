@@ -1,0 +1,225 @@
+{
+  "info": {
+    "_postman_id": "ce5779d5-e3f9-483b-9254-596efd235701",
+    "name": "SnippetsAPI-week2",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "32779147"
+  },
+  "item": [
+    {
+      "name": "Get All snippets",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/api/snippets",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "api",
+            "snippets"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get snippet by Id",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/api/snippets/3",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "api",
+            "snippets",
+            "3"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Create new snippet",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"title\": \"DBeaver created this table\",\r\n  \"contents\": \"So I must provide a user_id\",\r\n  \"user_id\": 1 \r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/api/snippets",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "api",
+            "snippets"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Update snippet",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"title\": \"Updated title from Postman\",\r\n    \"contents\": \"This content has been updated from Postman.\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/api/snippets/1",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "api",
+            "snippets",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Delete snippet",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/api/snippets/1",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "api",
+            "snippets",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Link tag to snippet",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"tagId\": 2\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}api/snippets/2/tags",
+          "host": [
+            "{{base_url}}api"
+          ],
+          "path": [
+            "snippets",
+            "2",
+            "tags"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "search",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"title\": \"DBeaver created this table\",\r\n  \"contents\": \"So I must provide a user_id\",\r\n  \"user_id\": 1 \r\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/api/snippets/search?q=SQL",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "api",
+            "snippets",
+            "search"
+          ],
+          "query": [
+            {
+              "key": "q",
+              "value": "SQL"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "filter",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/api/snippets/user/1",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "api",
+            "snippets",
+            "user",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "sort",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/api/snippets?sort=id desc",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "api",
+            "snippets"
+          ],
+          "query": [
+            {
+              "key": "sort",
+              "value": "id desc"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
