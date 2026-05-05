@@ -1,15 +1,16 @@
 import express from "express";
 import snippetsRouter from "./api/src/routers/snippets.js";
-import tagsRouter from "./api/src/routers/tags.js";
-import searchRouter from "./api/src/routers/search.js";
+import swaggerUi from "swagger-ui-express";
+import YAML from "yamljs";
+
 
 const app = express();
 const port = process.env.PORT || 3000;
+const swaggerDocument = YAML.load("./openapi.yml");
 
 app.use(express.json());
-app.use("/search", searchRouter);
 app.use("/api/snippets", snippetsRouter);
-app.use("/api/tags", tagsRouter);
+app.use("/docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 app.get("/", (req, res) => {
   res.send("This is a search engine");
