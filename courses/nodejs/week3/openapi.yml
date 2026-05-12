@@ -1,0 +1,267 @@
+openapi: 3.0.0
+
+info:
+  title: Snippets API
+  version: 1.0.0
+  description: API for managing snippets, tags, and authentication (JWT + token auth)
+
+servers:
+  - url: http://localhost:3000/api/snippets
+
+paths:
+
+  /register:
+    post:
+      summary: Register new user
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - first_name
+                - last_name
+                - email
+                - password
+              properties:
+                first_name:
+                  type: string
+                last_name:
+                  type: string
+                email:
+                  type: string
+                password:
+                  type: string
+      responses:
+        201:
+          description: User created
+        400:
+          description: Missing fields
+        500:
+          description: Server error
+
+  /login:
+    post:
+      summary: Login user (JWT authentication)
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - email
+                - password
+              properties:
+                email:
+                  type: string
+                password:
+                  type: string
+      responses:
+        200:
+          description: Returns JWT token
+        400:
+          description: Missing fields
+        401:
+          description: Invalid credentials
+        500:
+          description: Server error
+
+  /login-token:
+    post:
+      summary: Login user (database token authentication)
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - email
+                - password
+              properties:
+                email:
+                  type: string
+                password:
+                  type: string
+      responses:
+        200:
+          description: Returns database token
+        400:
+          description: Missing fields
+        401:
+          description: Invalid credentials
+        500:
+          description: Server error
+
+  /logout-token:
+    post:
+      summary: Logout user (delete database token)
+      security:
+        - bearerAuth: []
+      responses:
+        200:
+          description: Logged out successfully
+        400:
+          description: Missing token
+        500:
+          description: Server error
+
+  /:
+    get:
+      summary: Get all snippets
+      parameters:
+        - in: query
+          name: sort
+          schema:
+            type: string
+          description: Sort format like "id desc" or "title asc"
+      responses:
+        200:
+          description: List of snippets
+        400:
+          description: Invalid query parameter
+        500:
+          description: Server error
+
+    post:
+      summary: Create a snippet (requires authToken)
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - title
+                - contents
+              properties:
+                title:
+                  type: string
+                contents:
+                  type: string
+      responses:
+        201:
+          description: Snippet created
+        400:
+          description: Missing or invalid fields
+        401:
+          description: Unauthorized
+        500:
+          description: Server error
+
+  /{id}:
+    get:
+      summary: Get snippet by ID
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      responses:
+        200:
+          description: Snippet found
+        404:
+          description: Snippet not found
+        500:
+          description: Server error
+
+    put:
+      summary: Update snippet
+      security:
+        - bearerAuth: []
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                title:
+                  type: string
+                contents:
+                  type: string
+      responses:
+        200:
+          description: Snippet updated
+        401:
+          description: Unauthorized
+        404:
+          description: Snippet not found
+        500:
+          description: Server error
+
+    delete:
+      summary: Delete snippet (admin only)
+      security:
+        - bearerAuth: []
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      responses:
+        200:
+          description: Snippet deleted
+        401:
+          description: Unauthorized
+        403:
+          description: Forbidden (not admin)
+        404:
+          description: Snippet not found
+        500:
+          description: Server error
+
+  /search:
+    get:
+      summary: Search snippets
+      parameters:
+        - in: query
+          name: q
+          required: true
+          schema:
+            type: string
+      responses:
+        200:
+          description: Matching snippets
+        400:
+          description: Missing query
+        404:
+          description: No snippets found
+        500:
+          description: Server error
+
+  /user/{id}:
+    get:
+      summary: Get snippets by user ID
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      responses:
+        200:
+          description: User snippets
+        404:
+          description: No snippets found
+        500:
+          description: Server error
+
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
