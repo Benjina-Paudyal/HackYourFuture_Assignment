@@ -3,9 +3,6 @@ import db from "../../../database.js"
 
 const router = express.Router();
 
-
-
-
 // Week 2: Part A - Demonstrate and fix SQL injection
 // Get all
 router.get("/", async (req, res) => {
