@@ -1,0 +1,159 @@
+openapi: 3.0.0
+
+info:
+  title: Snippets API
+  version: 1.0.0
+  description: API for managing snippets and tags
+
+servers:
+  - url: http://localhost:3000
+
+paths:
+
+  /api/snippets:
+    get:
+      summary: Get all snippets
+      parameters:
+        - in: query
+          name: sort
+          schema:
+            type: string
+          description: Sort format like "id desc" or "title asc"
+      responses:
+        200:
+          description: List of snippets
+        400:
+          description: Invalid query parameter
+        500:
+          description: Server error
+
+    post:
+      summary: Create a snippet
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - title
+                - contents
+                - user_id
+              properties:
+                title:
+                  type: string
+                contents:
+                  type: string
+                user_id:
+                  type: integer
+      responses:
+        201:
+          description: Snippet created
+        400:
+          description: Missing or invalid fields
+        500:
+          description: Server error
+
+  /api/snippets/{id}:
+    get:
+      summary: Get snippet by ID
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      responses:
+        200:
+          description: Snippet found
+        400:
+          description: Invalid ID
+        404:
+          description: Snippet not found
+        500:
+          description: Server error
+
+    put:
+      summary: Update snippet
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                title:
+                  type: string
+                contents:
+                  type: string
+      responses:
+        200:
+          description: Snippet updated
+        400:
+          description: Invalid input
+        404:
+          description: Snippet not found
+        500:
+          description: Server error
+
+    delete:
+      summary: Delete snippet
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      responses:
+        200:
+          description: Snippet deleted
+        400:
+          description: Invalid ID
+        404:
+          description: Snippet not found
+        500:
+          description: Server error
+
+  /api/snippets/search:
+    get:
+      summary: Search snippets by title or contents
+      parameters:
+        - in: query
+          name: q
+          schema:
+            type: string
+          required: true
+      responses:
+        200:
+          description: Matching snippets
+        400:
+          description: Missing search query
+        404:
+          description: No snippets found
+        500:
+          description: Server error
+
+  /api/snippets/user/{id}:
+    get:
+      summary: Get snippets by user ID
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      responses:
+        200:
+          description: User snippets
+        400:
+          description: Invalid user ID
+        404:
+          description: No snippets found for user
+        500:
+          description: Server error
